@@ -1,0 +1,21 @@
+//ticket sheet 
+
+ticket_id	created_at	closed_at	outlet_id	cms_id	Same Day	Same Hour
+t1	2021-08-19 16:45	2021-08-19 18:20	outlet_1	cms_101	TRUE	FALSE
+t2	2021-08-20 10:10	2021-08-20 10:50	outlet_1	cms_102	TRUE	TRUE
+t3	2021-08-21 09:00	2021-08-22 11:00	outlet_2	cms_103	FALSE	FALSE
+t4	2021-08-21 14:30	2021-08-21 14:55	outlet_2	cms_104	TRUE	TRUE
+
+//feedback sheet 
+
+ticket_id	created_at	closed_at	outlet_id	cms_id	Same Day	Same Hour
+t1	2021-08-19 16:45	2021-08-19 18:20	outlet_1	cms_101	TRUE	FALSE
+t2	2021-08-20 10:10	2021-08-20 10:50	outlet_1	cms_102	TRUE	TRUE
+t3	2021-08-21 09:00	2021-08-22 11:00	outlet_2	cms_103	FALSE	FALSE
+t4	2021-08-21 14:30	2021-08-21 14:55	outlet_2	cms_104	TRUE	TRUE
+
+//summary sheet
+
+outlet_id	Same Day Count	Same Hour Count
+outlet_1	2	1
+outlet_2	1	1
